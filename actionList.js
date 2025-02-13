@@ -6367,7 +6367,7 @@ Action.Totem = new Action("Totem", {
         Soul: 0.5
     },
     skills: {
-        Wunderkind: 100
+        Wunderkind: 300
     },
     canStart() {
         return resources.loopingPotion;
