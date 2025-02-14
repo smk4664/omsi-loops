@@ -7007,7 +7007,7 @@ Action.GuildAssassin = new Action("Guild Assassin", {
         if (resources.heart >= 8) setStoryFlag("assassin8HeartsDelivered");
         let assassinExp = 0;
         if (getSkillLevel("Assassin") === 0) assassinExp = 100;
-        if (resources.heart > 0) assassinExp = 250 * Math.pow(resources.heart, 2);
+        if (resources.heart > 0) assassinExp = 550 * Math.pow(resources.heart, 2);
         this.skills.Assassin = assassinExp;
         handleSkillExp(this.skills);
         resources.heart = 0;
